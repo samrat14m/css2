@@ -1,0 +1,122 @@
+body{
+    border:10px groove lightgreen;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(./bg1.jpg);
+    background-size: cover; 
+}
+div{
+    height:auto;
+    width:auto;
+    background-color:black;
+    border: 5px solid red;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font: 1em sans-serif ;
+    font-style: italic;
+    padding: 0px;
+    color: whitesmoke;
+}
+.welcome{
+    padding:20px 10px 40px ;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    top: -30px;
+}
+.home{
+    padding: 20px 40px 5px 50px;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    top: 0px;
+    left: -120px;
+    width:380px;
+}
+.email{
+    line-height: 2em;
+    padding: 8px 50px 2px ;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    top:10px;
+    left: 0px;
+}
+.circle{
+    height: 350px;
+    width:350px;
+    border:8px solid rgb(8, 6, 105);
+    border-radius: 50%;
+    padding:0px;
+    margin: 0px 50px ;
+    color: black;
+    text-decoration: underline;
+    background-color: rgba(19, 214, 156, 0.33);
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    top: -250px;
+}
+.form{
+    border: 6px dashed #e76f51;
+    background-color: rgb(13, 18, 95);
+    color:rgb(199, 16, 123);
+    border-radius: 0px;
+    margin: 60px 30px 30px 120px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    
+}
+.menu{
+    padding: 10px 180px;
+    font-size: 2em;
+    text-decoration: underline burlywood;
+    font-style: normal;
+    position: relative;
+    left: 350px;
+    
+    
+}
+div>h2{
+    letter-spacing: 4px;
+    background-color: rgba(5, 5, 5, 0.2);
+    
+}
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+.items{
+    background-color: #f2cc8f;
+    height:350px;
+    width:300px;
+    margin:30px;
+    border: 3px solid #264653;
+    border-radius: 0px 30px 0px 130px;
+    font-style: 0.9em;
+    color: rgb(6, 6, 116);
+    font-size: 110%;
+
+}
+hr{
+    border: 2px solid rgb(219, 98, 169);
+}
+button{
+    background: none;
+    color: #ffa260;
+    border:2px solid #ffa260;
+    padding:5px 25px;
+    font-size:105%;
+    transition: all 0.12s;
+}
+button:hover{
+    border-color: #f1ff5c;
+    color:white;
+    box-shadow: 0px 8px 8px -4px #f1ff5c;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
