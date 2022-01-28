@@ -1,5 +1,5 @@
 body{
-    border:10px groove lightgreen;
+    border:10px groove rgb(92, 230, 92);
     height: auto;
     margin: 0 auto;
     background-image: url(./bg1.jpg);
@@ -19,27 +19,28 @@ div{
     padding: 0px;
     color: whitesmoke;
 }
+
 .welcome{
     padding:20px 10px 40px ;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: relative;
     top: -30px;
 }
 .home{
     padding: 20px 40px 5px 50px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: relative;
-    top: 0px;
+    top: -20px;
     left: -120px;
-    width:380px;
+    width:320px;
 }
 .email{
     line-height: 2em;
     padding: 8px 50px 2px ;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: relative;
     top:10px;
     left: 0px;
@@ -47,17 +48,17 @@ div{
 .circle{
     height: 350px;
     width:350px;
-    border:8px solid rgb(8, 6, 105);
+    border:10px solid rgb(8, 6, 105);
     border-radius: 50%;
     padding:0px;
     margin: 0px 50px ;
     color: black;
     text-decoration: underline;
-    background-color: rgba(19, 214, 156, 0.33);
+    background-color: rgba(19, 214, 156, 0.5);
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 117%;
     position: relative;
-    top: -250px;
+    top: -180px;
 }
 .form{
     border: 6px dashed #e76f51;
@@ -70,26 +71,27 @@ div{
     
 }
 .menu{
-    padding: 10px 180px;
+    display: block;
+    padding: 10px 50px;
+    width: 250px;
+    margin:20px auto;
     font-size: 2em;
     text-decoration: underline burlywood;
-    font-style: normal;
-    position: relative;
-    left: 350px;
-    
-    
+    font-style: normal;    
 }
+
 div>h2{
-    letter-spacing: 4px;
-    background-color: rgba(5, 5, 5, 0.2);
-    
+    letter-spacing: 3px;
+    background-color: rgba(5, 5, 5, 0.2);    
 }
+
 .flexbox{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
 }
+
 .items{
     background-color: #f2cc8f;
     height:350px;
@@ -97,19 +99,21 @@ div>h2{
     margin:30px;
     border: 3px solid #264653;
     border-radius: 0px 30px 0px 130px;
-    font-style: 0.9em;
+    font-size: 0.9em;
     color: rgb(6, 6, 116);
     font-size: 110%;
 
 }
-hr{
-    border: 2px solid rgb(219, 98, 169);
+hr{ 
+    color: #e76f51;
+    border: 3px solid rgb(219, 98, 169);
 }
+
 button{
     background: none;
     color: #ffa260;
     border:2px solid #ffa260;
-    padding:5px 25px;
+    padding:2px 20px;
     font-size:105%;
     transition: all 0.12s;
 }
